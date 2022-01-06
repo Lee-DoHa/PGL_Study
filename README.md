@@ -16,8 +16,11 @@ const name2 = 'Doha'
 const name3 = `Doha`
 
 const message1 = "I'm Doha.";
+
 const message2 = 'I\'m Doha.';
+
 const message3 = 'My name is ${name}';
+
 console.log(message3); -> My name is Doha 가 출력됨.
 
 console.log(1+1); -> 더하기
