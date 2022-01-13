@@ -8,6 +8,5 @@ public class Datatype{
 		System.out.println("6"+"6"); //66
 		
 		
-		
 	}
 }
