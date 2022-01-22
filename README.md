@@ -52,6 +52,29 @@ MacOS에 맞게 home brew를 이용해서 JDK설치
 
 ### Chapter2
 
+#### #1 *Build Automation Tool*
+* Java로 이뤄진 프로젝트는 '.java'파일에 정의된 Java Source 코드로 구성된다.
+* javac = Java Compiler, (comfile : 소스코드를 기계어로 바꾸는 과정)
+
+Maven - Java를 위한 Build Automation Tool
+* C#, Ruby 등의 다른 언어를 위해서도 사용 가능
+* Project Object Model(POM)
+* xml의 형태로 프로젝트를 정의
+* pom.xml을 분석해 프로젝트 빌드
+
+Gradle - Java를 위한 Build Automation Tool
+* C, C++, Javascript 등을 위해서도 사용할 수 있다.
+* build.gradle
+* groovy라는 언어로 프로젝트 정의
+* Sub-project 등을 포함시키는 용도의 settings.gradle도 있다.
+* Kotlin을 사용하여 정의할 수도 있다.(build.gradle.kts)
+
+#### #2 *Spring Boot 실행하기*
+
+
+
+#### #3 *Spring IoC*
+
 ### Chapter3
 
 ### Chapter4
