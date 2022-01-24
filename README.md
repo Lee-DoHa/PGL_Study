@@ -70,7 +70,16 @@ Gradle - Java를 위한 Build Automation Tool
 * Kotlin을 사용하여 정의할 수도 있다.(build.gradle.kts)
 
 #### #2 *Spring Boot 실행하기*
+* Presentation Layer : 사용자와 직접적으로 맞닿는 부분
+* Logic Layer : 요청을 처리하는 결정을 내리는 부분
+* Data Layer : 데이터를 저장하고 불러오는 부분
 
+<img width="1293" alt="스크린샷 2022-01-24 오후 1 41 40" src="https://user-images.githubusercontent.com/70997596/150723332-972bc2bd-defb-40f6-9fe7-65b67b424dc8.png">
+
+* Dispatcher Servlet : http 요청 같은거
+* Controller : Dispatcher Servlet의 직접적인 요청을 받는 부분. class 형태
+* Service : Controller가 검증해낸 요청을 받아서 사용자의 입력에 따른 데이터의 조작을 결정해주는 부분. class
+* Repository : Data의 표현을 받아서 저장하고 불러와서 데이터를 돌려주는 부분.
 
 
 #### #3 *Spring IoC*
