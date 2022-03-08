@@ -13,6 +13,7 @@ public class PostServiceSimple implements PostService{
     private final PostRepository postRepository;
 
     public PostServiceSimple(@Autowired PostRepository postRepository){
+
         this.postRepository = postRepository;
     }
     @Override
@@ -25,11 +26,13 @@ public class PostServiceSimple implements PostService{
 
     @Override
     public List<PostDto> readPostAll() {
+
         return this.postRepository.findAll();
     }
 
     @Override
     public PostDto readPost(int id) {
+
         return this.postRepository.findById(id);
     }
 
